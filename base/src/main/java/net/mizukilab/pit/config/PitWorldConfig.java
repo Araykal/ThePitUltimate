@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Author: KleeLoveLife
+ * @Author: 
  * @Date: 2025/5/3 16:39
  */
 public class PitWorldConfig extends Configuration {

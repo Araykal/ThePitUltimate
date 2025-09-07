@@ -19,7 +19,7 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 
 /**
- * @Author: KleeLoveLife
+ * @Author: 
  * @Date: 2025/4/12 10:54
  */
 //@AutoRegister

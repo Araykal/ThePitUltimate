@@ -112,7 +112,7 @@ public class PlayerMoveHandler implements MovementHandler, Listener {
                     BookUtil.openPlayer(player,
                             BookUtil.writtenBook()
                                     .title(CC.translate("&c$screenShareRequest"))
-                                    .author("KleeLoveLife")
+                                    .author("")
                                     .pages(
                                             new BookUtil.PageBuilder()
                                                     .add(
@@ -168,7 +168,7 @@ public class PlayerMoveHandler implements MovementHandler, Listener {
                     BookUtil.openPlayer(player,
                             BookUtil.writtenBook()
                                     .title(CC.translate("&c$wipeNotification #" + player.getName()))
-                                    .author("KleeLoveLife")
+                                    .author("")
                                     .pages(
                                             new BookUtil.PageBuilder()
                                                     .add(

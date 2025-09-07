@@ -90,7 +90,7 @@ import java.util.function.Function;
 
 
 /**
- * @author EmptyIrony, Misoryan, KleeLoveLife, Rabbit0w0, Araykal
+ * @author EmptyIrony, Misoryan, Rabbit0w0, Araykal
  */
 public class ThePit extends JavaPlugin implements PluginMessageListener {
     public static String BASE_VERSION;

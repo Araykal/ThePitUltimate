@@ -21,7 +21,7 @@ import org.bukkit.inventory.ItemStack
  * @ Created with IntelliJ IDEA
  * @ Author EmptyIrony
  * @ Date 2022/6/5
- * @ Author KleeLoveLife
+ * @ Author 
  * @ Time 0:29
  */
 class EnchantChoseButtonGlobalGem(
