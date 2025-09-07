@@ -1,14 +1,14 @@
 package net.mizukilab.pit.sound.impl
 
 import net.mizukilab.pit.util.sound.AbstractPitSound
-import nya.Skip
+
 import org.bukkit.Sound
 import org.bukkit.entity.Player
 
 /**
  * 神话升华音效 - 史诗般的升级之声
  */
-@Skip
+
 object MythicAscensionSound : AbstractPitSound() {
     override fun getMusicInternalName(): String {
         return "mythic_ascension"

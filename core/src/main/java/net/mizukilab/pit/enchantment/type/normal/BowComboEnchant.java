@@ -12,7 +12,7 @@ import net.mizukilab.pit.util.chat.RomanUtil;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import net.mizukilab.pit.util.time.TimeUtil;
 import com.google.common.util.concurrent.AtomicDouble;
-import nya.Skip;
+
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.Projectile;
@@ -40,7 +40,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 @AutoRegister
 @BowOnly
-@Skip
+
 public class BowComboEnchant extends AbstractEnchantment implements IPlayerShootEntity, Listener, IActionDisplayEnchant {
 
     public final HashMap<UUID, Long> hitCheck = new HashMap<>();

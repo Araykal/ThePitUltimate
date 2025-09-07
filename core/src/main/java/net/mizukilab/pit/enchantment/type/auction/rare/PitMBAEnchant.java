@@ -12,7 +12,7 @@ import net.mizukilab.pit.parm.listener.IPlayerKilledEntity;
 import net.mizukilab.pit.util.PlayerUtil;
 import net.mizukilab.pit.util.Utils;
 import net.mizukilab.pit.util.cooldown.Cooldown;
-import nya.Skip;
+
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
@@ -24,7 +24,7 @@ import org.bukkit.entity.Player;
 @ArmorOnly
 @WeaponOnly
 @BowOnly
-@Skip
+
 public class PitMBAEnchant extends AbstractEnchantment implements IPlayerKilledEntity {
 
     @Override

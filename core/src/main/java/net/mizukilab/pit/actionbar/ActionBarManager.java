@@ -4,7 +4,7 @@ import cn.hutool.core.lang.mutable.MutablePair;
 import io.irina.backports.utils.SWMRHashTable;
 import net.mizukilab.pit.util.Utils;
 import net.mizukilab.pit.util.chat.ActionBarUtil;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
@@ -17,7 +17,7 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * 不要使用SimpleEntry, 会污染HashMap
  */
-@Skip
+
 public class ActionBarManager implements IActionBarManager {
     int tick = 0;
     Map<UUID, MutablePair<StringBuilder,Map<String, MutablePair<String, Integer>>>> multiMap = new SWMRHashTable<>();

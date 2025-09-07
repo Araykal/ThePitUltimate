@@ -1,6 +1,6 @@
 package net.mizukilab.pit.runnable;
 
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffect;
@@ -13,7 +13,7 @@ import java.util.Iterator;
  * @Author: Starry_Killer
  * @Date: 2024/1/3
  */
-@Skip
+
 public class NightVisionRunnable extends BukkitRunnable {
 
     Iterator<? extends Player> iterator = null;

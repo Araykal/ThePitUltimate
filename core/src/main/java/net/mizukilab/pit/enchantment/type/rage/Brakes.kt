@@ -6,14 +6,14 @@ import net.mizukilab.pit.enchantment.rarity.EnchantmentRarity
 import net.mizukilab.pit.parm.listener.IAttackEntity
 import net.mizukilab.pit.parm.listener.IPlayerDamaged
 import net.mizukilab.pit.util.cooldown.Cooldown
-import nya.Skip
+
 import org.bukkit.entity.Entity
 import org.bukkit.entity.Player
 import org.bukkit.potion.PotionEffect
 import org.bukkit.potion.PotionEffectType
 import java.util.concurrent.atomic.AtomicBoolean
 
-@Skip
+
 class Brakes : AbstractEnchantment(), IAttackEntity, IPlayerDamaged {
     override fun getEnchantName(): String {
         return "停下!"

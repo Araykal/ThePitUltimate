@@ -7,13 +7,13 @@ import net.mizukilab.pit.enchantment.rarity.EnchantmentRarity;
 import net.mizukilab.pit.parm.listener.IPlayerDamaged;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import net.mizukilab.pit.util.random.RandomUtil;
-import nya.Skip;
+
 import org.bukkit.Sound;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
 import java.util.concurrent.atomic.AtomicBoolean;
-@Skip
+
 @ArmorOnly
 public class ThornsReflectEnchant extends AbstractEnchantment implements IPlayerDamaged {
 

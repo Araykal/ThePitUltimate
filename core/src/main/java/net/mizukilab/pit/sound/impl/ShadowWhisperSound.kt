@@ -1,14 +1,14 @@
 package net.mizukilab.pit.sound.impl
 
 import net.mizukilab.pit.util.sound.AbstractPitSound
-import nya.Skip
+
 import org.bukkit.Sound
 import org.bukkit.entity.Player
 
 /**
  * 暗影低语音效 - 神秘诡异的暗黑之声
  */
-@Skip
+
 object ShadowWhisperSound : AbstractPitSound() {
     override fun getMusicInternalName(): String {
         return "shadow_whisper"

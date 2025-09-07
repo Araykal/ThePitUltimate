@@ -7,7 +7,7 @@ import cn.charlotte.pit.perk.PerkType;
 import com.google.common.util.concurrent.AtomicDouble;
 import net.mizukilab.pit.enchantment.param.event.PlayerOnly;
 import net.mizukilab.pit.parm.listener.IAttackEntity;
-import nya.Skip;
+
 import org.bukkit.Material;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
@@ -21,7 +21,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * @Author: Misoryan
  * @Created_In: 2021/1/7 17:40
  */
-@Skip
+
 public class MeleeBoostPerk extends AbstractPerk implements IAttackEntity {
 
     @Override

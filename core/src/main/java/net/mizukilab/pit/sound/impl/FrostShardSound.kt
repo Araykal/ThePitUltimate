@@ -1,14 +1,14 @@
 package net.mizukilab.pit.sound.impl
 
 import net.mizukilab.pit.util.sound.AbstractPitSound
-import nya.Skip
+
 import org.bukkit.Sound
 import org.bukkit.entity.Player
 
 /**
  * 霜冰碎片音效 - 寒冷的冰晶破碎
  */
-@Skip
+
 object FrostShardSound : AbstractPitSound() {
     override fun getMusicInternalName(): String {
         return "frost_shard"

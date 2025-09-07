@@ -44,7 +44,7 @@ import net.mizukilab.pit.util.item.ItemBuilder;
 import net.mizukilab.pit.util.item.ItemUtil;
 import net.mizukilab.pit.util.random.RandomUtil;
 import net.mizukilab.pit.util.rank.RankUtil;
-import nya.Skip;
+
 import org.bukkit.*;
 import org.bukkit.craftbukkit.v1_8_R3.entity.CraftPlayer;
 import org.bukkit.entity.*;
@@ -75,7 +75,7 @@ import static net.mizukilab.pit.util.PublicUtil.processActionBarWithSettingProvi
  * @Author: EmptyIrony
  * @Date: 2021/1/1 11:16
  */
-@Skip
+
 @AutoRegister
 public class CombatListener implements Listener {
 

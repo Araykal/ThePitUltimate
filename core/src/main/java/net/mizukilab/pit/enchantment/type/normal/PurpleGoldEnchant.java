@@ -5,14 +5,14 @@ import net.mizukilab.pit.enchantment.param.item.ArmorOnly;
 import net.mizukilab.pit.enchantment.rarity.EnchantmentRarity;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import net.mizukilab.pit.util.time.TimeUtil;
-import nya.Skip;
+
 
 
 /**
  * @Author: Misoryan
  * @Created_In: 2021/2/25 14:41
  */
-@Skip
+
 @ArmorOnly
 public class PurpleGoldEnchant extends AbstractEnchantment {
 

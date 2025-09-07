@@ -13,7 +13,7 @@ import net.mizukilab.pit.util.ParticleUtil;
 import net.mizukilab.pit.util.inventory.InventoryUtil;
 import net.mizukilab.pit.util.item.ItemUtil;
 import net.mizukilab.pit.util.menu.Menu;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -31,7 +31,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * @Date: 2021/2/11 21:10
  */
 @Getter
-@Skip
+
 public class AnimationRunnable extends BukkitRunnable {
 
     private final Map<UUID, AnimationData> animations = new ConcurrentHashMap<>();

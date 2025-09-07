@@ -6,7 +6,7 @@ import net.mizukilab.pit.enchantment.param.item.BowOnly;
 import net.mizukilab.pit.enchantment.rarity.EnchantmentRarity;
 import net.mizukilab.pit.parm.listener.IPlayerShootEntity;
 import net.mizukilab.pit.util.cooldown.Cooldown;
-import nya.Skip;
+
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
@@ -16,7 +16,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * @Author: Misoryan
  * @Created_In: 2021/1/18 19:10
  */
-@Skip
+
 @BowOnly
 public class PowerEnchant extends AbstractEnchantment implements IPlayerShootEntity {
 

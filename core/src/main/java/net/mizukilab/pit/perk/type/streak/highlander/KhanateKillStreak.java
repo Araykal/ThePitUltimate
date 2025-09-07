@@ -9,7 +9,7 @@ import net.mizukilab.pit.enchantment.param.event.PlayerOnly;
 import net.mizukilab.pit.parm.AutoRegister;
 import net.mizukilab.pit.parm.listener.IAttackEntity;
 import net.mizukilab.pit.util.PlayerUtil;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Entity;
@@ -26,7 +26,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * @Author: Misoryan
  * @Created_In: 2021/2/26 17:47
  */
-@Skip
+
 @AutoRegister
 public class KhanateKillStreak extends AbstractPerk implements Listener, IAttackEntity {
 

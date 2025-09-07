@@ -21,13 +21,13 @@ import net.mizukilab.pit.util.chat.CC;
 import net.mizukilab.pit.util.level.LevelUtil;
 import net.mizukilab.pit.util.scoreboard.AssembleAdapter;
 import net.mizukilab.pit.util.time.TimeUtil;
-import nya.Skip;
+
 import org.bukkit.entity.Player;
 
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.List;
-@Skip
+
 public class Scoreboard implements AssembleAdapter {
 
     private final SimpleDateFormat dateFormat = new SimpleDateFormat(NewConfiguration.INSTANCE.getDateFormat());

@@ -10,7 +10,7 @@ import net.mizukilab.pit.util.Utils;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import net.mizukilab.pit.util.inventory.InventoryUtil;
 import net.mizukilab.pit.util.item.ItemBuilder;
-import nya.Skip;
+
 import org.bukkit.Material;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
@@ -32,7 +32,7 @@ import java.util.concurrent.TimeUnit;
  * @Author: Misoryan
  * @Created_In: 2021/3/24 19:57
  */
-@Skip
+
 @AutoRegister
 @BowOnly
 public class ArrowArmoryEnchant extends AbstractEnchantment implements Listener {

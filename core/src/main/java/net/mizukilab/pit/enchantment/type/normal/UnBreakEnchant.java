@@ -6,7 +6,7 @@ import net.mizukilab.pit.enchantment.rarity.EnchantmentRarity;
 import net.mizukilab.pit.parm.listener.IItemDamage;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import net.mizukilab.pit.util.random.RandomUtil;
-import nya.Skip;
+
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
@@ -18,7 +18,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * 4
  */
 
-@Skip
+
 //耐久设定只存在于钓鱼竿中
 @RodOnly
 public class UnBreakEnchant extends AbstractEnchantment implements IItemDamage {

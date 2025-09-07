@@ -7,7 +7,7 @@ package net.jitse.npclib.listeners;
 import net.jitse.npclib.NPCLib;
 import net.jitse.npclib.internal.NPCBase;
 import net.jitse.npclib.internal.NPCManager;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Chunk;
 import org.bukkit.Location;
@@ -23,7 +23,7 @@ import java.util.UUID;
 /**
  * @author Jitse Boonstra
  */
-@Skip
+
 public class ChunkListener implements Listener {
 
     private final NPCLib instance;

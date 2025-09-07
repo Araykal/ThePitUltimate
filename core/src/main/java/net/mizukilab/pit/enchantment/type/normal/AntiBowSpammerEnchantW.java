@@ -8,7 +8,7 @@ import net.mizukilab.pit.parm.listener.IAttackEntity;
 import net.mizukilab.pit.parm.listener.IPlayerShootEntity;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import com.google.common.util.concurrent.AtomicDouble;
-import nya.Skip;
+
 import org.bukkit.Material;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
@@ -19,7 +19,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * @Author: Misoryan
  * @Created_In: 2021/1/17 22:47
  */
-@Skip
+
 @WeaponOnly
 public class AntiBowSpammerEnchantW extends AbstractEnchantment implements IAttackEntity, IPlayerShootEntity {
 

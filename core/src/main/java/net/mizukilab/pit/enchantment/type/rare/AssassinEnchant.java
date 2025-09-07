@@ -10,7 +10,7 @@ import net.mizukilab.pit.parm.AutoRegister;
 import net.mizukilab.pit.parm.listener.IPlayerDamaged;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import net.mizukilab.pit.util.time.TimeUtil;
-import nya.Skip;
+
 import org.bukkit.Location;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
@@ -27,7 +27,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * @Author: Misoryan
  * @Created_In: 2021/2/25 21:49
  */
-@Skip
+
 @ArmorOnly
 @AutoRegister
 public class AssassinEnchant extends AbstractEnchantment implements Listener, IPlayerDamaged, IActionDisplayEnchant {

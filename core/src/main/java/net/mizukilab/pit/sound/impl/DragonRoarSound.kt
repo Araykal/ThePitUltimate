@@ -1,14 +1,14 @@
 package net.mizukilab.pit.sound.impl
 
 import net.mizukilab.pit.util.sound.AbstractPitSound
-import nya.Skip
+
 import org.bukkit.Sound
 import org.bukkit.entity.Player
 
 /**
  * 龙吼音效 - 威严的巨龙咆哮
  */
-@Skip
+
 object DragonRoarSound : AbstractPitSound() {
     override fun getMusicInternalName(): String {
         return "dragon_roar"

@@ -2,7 +2,7 @@ package net.mizukilab.pit.runnable;
 
 import cn.charlotte.pit.data.PlayerProfile;
 import net.mizukilab.pit.util.chat.CC;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
@@ -11,7 +11,7 @@ import org.bukkit.scheduler.BukkitRunnable;
  * @Author: Starry_Killer
  * @Date: 2024/1/1
  */
-@Skip
+
 public class FreeExpRunnable extends BukkitRunnable {
 
     @Override

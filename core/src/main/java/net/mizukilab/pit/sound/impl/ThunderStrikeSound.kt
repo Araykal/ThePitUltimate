@@ -1,14 +1,14 @@
 package net.mizukilab.pit.sound.impl
 
 import net.mizukilab.pit.util.sound.AbstractPitSound
-import nya.Skip
+
 import org.bukkit.Sound
 import org.bukkit.entity.Player
 
 /**
  * 雷击音效 - 模拟雷电轰鸣声
  */
-@Skip
+
 object ThunderStrikeSound : AbstractPitSound() {
     override fun getMusicInternalName(): String {
         return "thunder_strike"

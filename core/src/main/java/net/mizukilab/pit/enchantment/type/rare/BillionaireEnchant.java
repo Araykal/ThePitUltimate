@@ -11,7 +11,7 @@ import net.mizukilab.pit.parm.listener.IAttackEntity;
 import net.mizukilab.pit.parm.listener.IPlayerShootEntity;
 import net.mizukilab.pit.parm.type.BowOnly;
 import net.mizukilab.pit.util.cooldown.Cooldown;
-import nya.Skip;
+
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
@@ -21,7 +21,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * @Author: Misoryan
  * @Created_In: 2021/1/27 14:39
  */
-@Skip
+
 @WeaponOnly
 public class BillionaireEnchant extends AbstractEnchantment implements IAttackEntity, IPlayerShootEntity {
 

@@ -12,7 +12,7 @@ import net.mizukilab.pit.util.chat.CC;
 import net.mizukilab.pit.util.nametag.BufferedNametag;
 import net.mizukilab.pit.util.nametag.NametagAdapter;
 import net.mizukilab.pit.util.rank.RankUtil;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
@@ -22,7 +22,7 @@ import java.util.List;
  * @Author: EmptyIrony
  * @Date: 2021/1/1 15:56
  */
-@Skip
+
 public class NameTagImpl implements NametagAdapter {
 
     @Override

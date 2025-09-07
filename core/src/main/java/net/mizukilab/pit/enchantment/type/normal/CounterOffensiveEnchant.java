@@ -10,7 +10,7 @@ import net.mizukilab.pit.parm.listener.IPlayerDamaged;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import net.mizukilab.pit.util.time.TimeUtil;
 import com.google.common.util.concurrent.AtomicDouble;
-import nya.Skip;
+
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -25,7 +25,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * @Author: Misoryan
  * @Created_In: 2021/3/26 13:36
  */
-@Skip
+
 @ArmorOnly
 @AutoRegister
 public class CounterOffensiveEnchant extends AbstractEnchantment implements IPlayerDamaged {

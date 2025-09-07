@@ -4,7 +4,7 @@ import cn.charlotte.pit.data.PlayerProfile;
 import cn.charlotte.pit.event.PitStreakKillChangeEvent;
 import net.mizukilab.pit.medal.AbstractMedal;
 import net.mizukilab.pit.parm.AutoRegister;
-import nya.Skip;
+
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
@@ -13,7 +13,7 @@ import org.bukkit.event.Listener;
  * @Creator Misoryan
  * @Date 2021/6/9 23:00
  */
-@Skip
+
 @AutoRegister
 public class FiftyStreaksMedal extends AbstractMedal implements Listener {
 

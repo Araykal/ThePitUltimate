@@ -7,7 +7,7 @@ import net.mizukilab.pit.parm.AutoRegister;
 import net.mizukilab.pit.util.PlayerUtil;
 import net.mizukilab.pit.util.Utils;
 import net.mizukilab.pit.util.cooldown.Cooldown;
-import nya.Skip;
+
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -28,7 +28,7 @@ import org.bukkit.util.Vector;
  * @Creator Misoryan
  * @Date 2021/6/19 12:50
  */
-@Skip
+
 @AutoRegister
 public class BounceBowEnchant extends AbstractEnchantment implements Listener {
 

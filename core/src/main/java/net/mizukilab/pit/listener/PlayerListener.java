@@ -34,7 +34,7 @@ import net.mizukilab.pit.util.item.ItemUtil;
 import net.mizukilab.pit.util.level.LevelUtil;
 import net.mizukilab.pit.util.random.RandomUtil;
 import net.mizukilab.pit.util.time.TimeUtil;
-import nya.Skip;
+
 import org.bukkit.Material;
 import org.bukkit.*;
 import org.bukkit.block.Block;
@@ -74,7 +74,7 @@ import java.util.stream.Stream;
  * @Author: EmptyIrony
  * @Date: 2020/12/30 22:00
  */
-@Skip
+
 @AutoRegister
 public class PlayerListener implements Listener {
 

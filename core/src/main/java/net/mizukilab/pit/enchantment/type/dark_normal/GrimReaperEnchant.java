@@ -11,7 +11,7 @@ import net.mizukilab.pit.util.SpecialUtil;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import com.google.common.util.concurrent.AtomicDouble;
 import it.unimi.dsi.fastutil.objects.ObjectOpenHashSet;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Chicken;
 import org.bukkit.entity.Entity;
@@ -24,7 +24,7 @@ import java.util.Iterator;
 import java.util.Set;
 import java.util.UUID;
 
-@Skip
+
 @ArmorOnly
 public class GrimReaperEnchant extends AbstractEnchantment implements IPlayerKilledEntity {
 

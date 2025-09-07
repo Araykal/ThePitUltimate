@@ -1,14 +1,14 @@
 package net.mizukilab.pit.sound.impl
 
 import net.mizukilab.pit.util.sound.AbstractPitSound
-import nya.Skip
+
 import org.bukkit.Sound
 import org.bukkit.entity.Player
 
 /**
  * 虚空回音音效 - 空灵的虚无之声
  */
-@Skip
+
 object VoidEchoSound : AbstractPitSound() {
     override fun getMusicInternalName(): String {
         return "void_echo"

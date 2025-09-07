@@ -17,7 +17,7 @@ import net.mizukilab.pit.util.PlayerUtil
 import net.mizukilab.pit.util.chat.CC
 import net.mizukilab.pit.util.chat.MessageType
 import net.mizukilab.pit.util.cooldown.Cooldown
-import nya.Skip
+
 import org.bukkit.Material
 import org.bukkit.entity.Entity
 import org.bukkit.entity.Player
@@ -31,7 +31,7 @@ import java.util.concurrent.atomic.AtomicBoolean
  */
 
 @WeaponOnly
-@Skip
+
 class ComboStrikeEnchant : AbstractEnchantment(), IAttackEntity, IPlayerShootEntity,
     IActionDisplayEnchant {
     private val numFormat = DecimalFormat("0.0")

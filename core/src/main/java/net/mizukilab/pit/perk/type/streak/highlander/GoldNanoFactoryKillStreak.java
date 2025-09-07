@@ -7,7 +7,7 @@ import cn.charlotte.pit.perk.PerkType;
 import net.mizukilab.pit.parm.AutoRegister;
 import net.mizukilab.pit.util.PlayerUtil;
 import net.mizukilab.pit.util.random.RandomUtil;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Item;
@@ -28,7 +28,7 @@ import java.util.List;
  * @Author: Misoryan
  * @Created_In: 2021/2/26 17:57
  */
-@Skip
+
 @AutoRegister
 public class GoldNanoFactoryKillStreak extends AbstractPerk implements Listener {
 

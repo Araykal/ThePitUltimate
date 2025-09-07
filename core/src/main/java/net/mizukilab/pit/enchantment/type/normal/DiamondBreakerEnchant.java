@@ -12,7 +12,7 @@ import net.mizukilab.pit.util.Utils;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import com.google.common.util.concurrent.AtomicDouble;
 import net.minecraft.server.v1_8_R3.ItemArmor;
-import nya.Skip;
+
 import org.bukkit.Material;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
@@ -24,7 +24,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * @Author: Misoryan
  * @Created_In: 2021/1/17 18:26
  */
-@Skip
+
 @WeaponOnly
 @BowOnly
 @ArmorOnly

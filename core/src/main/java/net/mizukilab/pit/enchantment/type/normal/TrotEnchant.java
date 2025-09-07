@@ -9,7 +9,7 @@ import net.mizukilab.pit.enchantment.rarity.EnchantmentRarity;
 import net.mizukilab.pit.item.IMythicItem;
 import net.mizukilab.pit.util.PlayerUtil;
 import net.mizukilab.pit.util.cooldown.Cooldown;
-import nya.Skip;
+
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import spg.lgdev.handler.MovementHandler;
@@ -21,7 +21,7 @@ import spg.lgdev.iSpigot;
  */
 
 @ArmorOnly
-@Skip
+
 public class TrotEnchant extends AbstractEnchantment implements MovementHandler {
 
     @SneakyThrows

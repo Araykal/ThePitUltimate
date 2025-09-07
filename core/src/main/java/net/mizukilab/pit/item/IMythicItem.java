@@ -23,7 +23,7 @@ import net.mizukilab.pit.util.Utils;
 import net.mizukilab.pit.util.chat.RomanUtil;
 import net.mizukilab.pit.util.item.ItemBuilder;
 import net.mizukilab.pit.util.random.RandomUtil;
-import nya.Skip;
+
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
@@ -38,7 +38,7 @@ import java.util.UUID;
 @Data()
 @Getter
 @Setter
-@Skip
+
 public abstract class IMythicItem extends AbstractPitItem {
 
     public int maxLive;

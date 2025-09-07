@@ -10,7 +10,7 @@ import net.mizukilab.pit.parm.AutoRegister;
 import net.mizukilab.pit.parm.listener.IAttackEntity;
 import net.mizukilab.pit.util.PlayerUtil;
 import net.mizukilab.pit.util.cooldown.Cooldown;
-import nya.Skip;
+
 import org.bukkit.Material;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
@@ -20,7 +20,7 @@ import java.text.DecimalFormat;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 @WeaponOnly
-@Skip
+
 @AutoRegister
 public class ComboStealEnchant extends AbstractEnchantment implements IAttackEntity, IActionDisplayEnchant {
 

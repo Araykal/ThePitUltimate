@@ -5,7 +5,7 @@ import cn.charlotte.pit.event.PitStreakKillChangeEvent;
 import net.mizukilab.pit.medal.AbstractMedal;
 import net.mizukilab.pit.parm.AutoRegister;
 import net.mizukilab.pit.util.PlayerUtil;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
@@ -15,7 +15,7 @@ import org.bukkit.event.Listener;
  * @Creator Misoryan
  * @Date 2021/6/10 23:58
  */
-@Skip
+
 @AutoRegister
 public class RamboMedal extends AbstractMedal implements Listener {
 

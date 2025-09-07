@@ -8,7 +8,7 @@ import net.mizukilab.pit.item.type.mythic.MythicLeggingsItem;
 import net.mizukilab.pit.parm.listener.ITickTask;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import net.mizukilab.pit.util.item.ItemUtil;
-import nya.Skip;
+
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -17,7 +17,7 @@ import org.bukkit.inventory.ItemStack;
  * @Author: Misoryan
  * @Created_In: 2021/2/26 13:28
  */
-@Skip
+
 @ArmorOnly
 public class SelfCheckoutEnchant extends AbstractEnchantment implements ITickTask {
 

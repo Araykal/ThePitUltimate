@@ -15,7 +15,7 @@ import net.mizukilab.pit.util.chat.CC
 import net.mizukilab.pit.util.cooldown.Cooldown
 import net.mizukilab.pit.util.time.TimeUtil
 import net.mizukilab.pit.util.toMythicItem
-import nya.Skip
+
 import org.bukkit.Material
 import org.bukkit.Sound
 import org.bukkit.entity.Entity
@@ -31,7 +31,7 @@ import java.util.concurrent.atomic.AtomicBoolean
  * @author Araykal
  * @since 2025/5/17
  */
-@Skip
+
 @WeaponOnly
 class PrimordialStrikerEnchant : AbstractEnchantment(), IPlayerDamaged, IPlayerKilledEntity,Listener, IAttackEntity, ITickTask,
     IActionDisplayEnchant {

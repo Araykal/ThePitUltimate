@@ -1,7 +1,7 @@
 package spg.lgdev;
 
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
-import nya.Skip;
+
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * Created by EmptyIrony on 2021/6/20.
  */
-@Skip
+
 public class iSpigot implements Listener {
     public static iSpigot INSTANCE;
     private final List<MovementHandler> movementHandlers = new ObjectArrayList<>();

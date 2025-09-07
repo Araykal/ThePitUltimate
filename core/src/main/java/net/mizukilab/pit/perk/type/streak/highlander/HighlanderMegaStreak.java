@@ -13,7 +13,7 @@ import net.mizukilab.pit.perk.type.shop.BountyHunterPerk;
 import net.mizukilab.pit.util.PlayerUtil;
 import net.mizukilab.pit.util.chat.CC;
 import net.mizukilab.pit.util.chat.MessageType;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.Sound;
@@ -33,7 +33,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * @Author: Misoryan
  * @Created_In: 2021/2/20 22:28
  */
-@Skip
+
 @AutoRegister
 public class HighlanderMegaStreak extends AbstractPerk implements Listener, IAttackEntity, IPlayerDamaged, ITickTask, IPlayerKilledEntity, IPlayerBeKilledByEntity, MegaStreak {
 

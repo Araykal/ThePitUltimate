@@ -9,7 +9,7 @@ import net.mizukilab.pit.parm.AutoRegister
 import net.mizukilab.pit.util.PlayerUtil
 import net.mizukilab.pit.util.Utils
 import net.mizukilab.pit.util.cooldown.Cooldown
-import nya.Skip
+
 import org.bukkit.Bukkit
 import org.bukkit.craftbukkit.v1_8_R3.entity.CraftLivingEntity
 import org.bukkit.craftbukkit.v1_8_R3.entity.CraftPlayer
@@ -25,7 +25,7 @@ import org.bukkit.scheduler.BukkitRunnable
 
 
 @AutoRegister
-@Skip
+
 @ArmorOnly
 class Regularity : AbstractEnchantment(), Listener {
     override fun getEnchantName(): String {

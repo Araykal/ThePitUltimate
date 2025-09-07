@@ -5,7 +5,7 @@ import net.mizukilab.pit.enchantment.AbstractEnchantment
 import net.mizukilab.pit.enchantment.rarity.EnchantmentRarity
 import net.mizukilab.pit.parm.AutoRegister
 import net.mizukilab.pit.util.cooldown.Cooldown
-import nya.Skip
+
 
 import org.bukkit.entity.Player
 import org.bukkit.event.EventHandler
@@ -15,7 +15,7 @@ import kotlin.math.min
 
 
 @AutoRegister
-@Skip
+
 class SingularityEnchant : AbstractEnchantment(), Listener {
     override fun getEnchantName(): String {
         return "奇异"

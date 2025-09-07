@@ -6,7 +6,7 @@ import cn.charlotte.pit.data.operator.IOperator;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import lombok.SneakyThrows;
 import lombok.ToString;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
@@ -17,7 +17,7 @@ import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.CopyOnWriteArraySet;
 import java.util.function.Consumer;
-@Skip
+
 @ToString
 public class PackedOperator implements IOperator {
     Throwable throwable;

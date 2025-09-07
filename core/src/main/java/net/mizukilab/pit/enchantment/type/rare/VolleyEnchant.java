@@ -13,7 +13,7 @@ import net.mizukilab.pit.util.Utils;
 import net.mizukilab.pit.util.chat.CC;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import net.mizukilab.pit.util.item.ItemBuilder;
-import nya.Skip;
+
 import org.bukkit.Material;
 import org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity;
 import org.bukkit.craftbukkit.v1_8_R3.entity.CraftPlayer;
@@ -40,7 +40,7 @@ import java.util.concurrent.TimeUnit;
 
 @AutoRegister
 @BowOnly
-@Skip
+
 public class VolleyEnchant extends AbstractEnchantment implements Listener {
 
     private static final Map<UUID, Cooldown> cooldown = new SWMRHashTable<>();

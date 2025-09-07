@@ -9,7 +9,7 @@ import net.mizukilab.pit.util.PlayerUtil;
 import net.mizukilab.pit.util.inventory.InventoryUtil;
 import net.mizukilab.pit.util.item.ItemBuilder;
 import net.mizukilab.pit.util.item.ItemUtil;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -29,7 +29,7 @@ import java.util.List;
  * @Author Misoryan
  * @Date 2022/11/22 21:35
  */
-@Skip
+
 @AutoRegister
 public class AuraOfProtectionKillStreak extends AbstractPerk implements Listener {
 

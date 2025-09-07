@@ -13,7 +13,7 @@ import net.mizukilab.pit.config.NewConfiguration;
 import net.mizukilab.pit.util.PlayerUtil;
 import net.mizukilab.pit.util.chat.CC;
 import net.mizukilab.pit.util.cooldown.Cooldown;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
@@ -25,7 +25,7 @@ import java.util.*;
  * @Author: EmptyIrony
  * @Date: 2021/1/1 17:33
  */
-@Skip
+
 public class BountyRunnable extends BukkitRunnable {
 
     private final Random random = new Random();

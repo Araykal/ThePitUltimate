@@ -10,7 +10,7 @@ import net.mizukilab.pit.parm.listener.IAttackEntity;
 import net.mizukilab.pit.util.chat.RomanUtil;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import net.mizukilab.pit.util.time.TimeUtil;
-import nya.Skip;
+
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -32,7 +32,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  */
 
 @WeaponOnly
-@Skip
+
 public class CrushEnchant extends AbstractEnchantment implements IAttackEntity, IActionDisplayEnchant, Listener {
 
     private final Map<UUID, Cooldown> COOLDOWN = new HashMap<>();

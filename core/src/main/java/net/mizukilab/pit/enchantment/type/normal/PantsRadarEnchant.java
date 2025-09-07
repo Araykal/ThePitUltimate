@@ -6,14 +6,14 @@ import net.mizukilab.pit.enchantment.param.item.BowOnly;
 import net.mizukilab.pit.enchantment.param.item.WeaponOnly;
 import net.mizukilab.pit.enchantment.rarity.EnchantmentRarity;
 import net.mizukilab.pit.util.cooldown.Cooldown;
-import nya.Skip;
+
 
 
 /**
  * @Author: Misoryan
  * @Created_In: 2021/2/25 14:53
  */
-@Skip
+
 @ArmorOnly
 @WeaponOnly
 @BowOnly

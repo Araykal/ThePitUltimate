@@ -1,11 +1,11 @@
 package net.mizukilab.pit.sound.impl
 
 import net.mizukilab.pit.util.sound.AbstractPitSound
-import nya.Skip
+
 import org.bukkit.Sound
 import org.bukkit.entity.Player
 
-@Skip
+
 object DoubleStreakSound : AbstractPitSound() {
     override fun getMusicInternalName(): String {
         return "double_streak"

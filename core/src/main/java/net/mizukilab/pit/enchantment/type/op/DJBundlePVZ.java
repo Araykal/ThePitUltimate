@@ -11,7 +11,7 @@ import net.mizukilab.pit.util.cooldown.Cooldown;
 import net.mizukilab.pit.util.music.NBSDecoder;
 import net.mizukilab.pit.util.music.PositionSongPlayer;
 import net.mizukilab.pit.util.music.Song;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Effect;
 import org.bukkit.Location;
@@ -26,7 +26,7 @@ import java.util.*;
  * @Author: Misoryan
  * @Created_In: 2021/3/5 14:57
  */
-@Skip
+
 @ArmorOnly
 public class DJBundlePVZ extends AbstractEnchantment implements ITickTask, MovementHandler {
 

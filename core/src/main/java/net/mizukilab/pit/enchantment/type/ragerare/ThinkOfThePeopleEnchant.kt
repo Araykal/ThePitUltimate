@@ -4,14 +4,14 @@ import net.mizukilab.pit.enchantment.AbstractEnchantment
 import net.mizukilab.pit.enchantment.param.item.ArmorOnly
 import net.mizukilab.pit.enchantment.rarity.EnchantmentRarity
 import net.mizukilab.pit.util.cooldown.Cooldown
-import nya.Skip
+
 
 
 /**
  * @Creator Misoryan
  * @Date 2021/5/8 14:12
  */
-@Skip
+
 @ArmorOnly
 class ThinkOfThePeopleEnchant : AbstractEnchantment() {
     override fun getEnchantName(): String {

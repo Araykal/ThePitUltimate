@@ -11,7 +11,7 @@ import net.mizukilab.pit.util.cooldown.Cooldown;
 import net.mizukilab.pit.util.time.TimeUtil;
 import com.google.common.util.concurrent.AtomicDouble;
 import io.irina.backports.utils.SWMRHashTable;
-import nya.Skip;
+
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -28,7 +28,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 @ArmorOnly
-@Skip
+
 @AutoRegister
 public class CriticalMomentEnchant extends AbstractEnchantment implements IPlayerDamaged, Listener, IActionDisplayEnchant {
 

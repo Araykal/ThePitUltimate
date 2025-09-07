@@ -12,7 +12,7 @@ import net.mizukilab.pit.util.chat.CC;
 import net.mizukilab.pit.util.chat.MessageType;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import net.mizukilab.pit.util.rank.RankUtil;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -28,7 +28,7 @@ import java.util.concurrent.TimeUnit;
  * @Author: EmptyIrony
  * @Date: 2021/1/1 11:31
  */
-@Skip
+
 @AutoRegister
 public class ChatListener implements Listener {
 

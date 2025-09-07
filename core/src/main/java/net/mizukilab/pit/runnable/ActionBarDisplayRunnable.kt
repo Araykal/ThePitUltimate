@@ -6,10 +6,10 @@ import net.minecraft.server.v1_8_R3.MinecraftServer
 import net.mizukilab.pit.item.AbstractPitItem
 import net.mizukilab.pit.util.chat.ActionBarUtil
 import net.mizukilab.pit.util.chat.CC
-import nya.Skip
+
 import org.bukkit.Bukkit
 import org.bukkit.entity.Player
-@Skip
+
 object ActionBarDisplayRunnable {
 
     private val enchants by lazy {

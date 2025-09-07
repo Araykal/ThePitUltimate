@@ -15,7 +15,7 @@ import net.mizukilab.pit.util.PlayerUtil;
 import net.mizukilab.pit.util.chat.CC;
 import net.mizukilab.pit.util.chat.MessageType;
 import net.mizukilab.pit.util.item.ItemBuilder;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.Sound;
@@ -32,7 +32,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * @Creator Misoryan
  * @Date 2021/4/27 17:11
  */
-@Skip
+
 @AutoRegister
 public class BeastModeMegaStreak extends AbstractPerk implements Listener, ITickTask, IPlayerKilledEntity, IAttackEntity, IPlayerShootEntity, IPlayerBeKilledByEntity, MegaStreak {
 

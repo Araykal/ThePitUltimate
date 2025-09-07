@@ -11,7 +11,7 @@ import net.mizukilab.pit.pet.PetFactory;
 import net.mizukilab.pit.util.chat.CC;
 import net.mizukilab.pit.util.chat.MessageType;
 import net.mizukilab.pit.util.cooldown.Cooldown;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.Slime;
@@ -26,7 +26,7 @@ import org.bukkit.event.Listener;
 
 @ArmorOnly
 @AutoRegister
-@Skip
+
 public class SuperSlimeEnchant extends AbstractEnchantment implements Listener {
 
     @Override

@@ -4,14 +4,14 @@ import net.mizukilab.pit.enchantment.AbstractEnchantment;
 import net.mizukilab.pit.enchantment.param.item.RodOnly;
 import net.mizukilab.pit.enchantment.rarity.EnchantmentRarity;
 import net.mizukilab.pit.util.cooldown.Cooldown;
-import nya.Skip;
+
 
 
 /**
  * @Author: EmptyIrony
  * @Date: 2021/2/7 1:16
  */
-@Skip
+
 @RodOnly
 public class LureEnchant extends AbstractEnchantment {
 

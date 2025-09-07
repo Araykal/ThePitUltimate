@@ -8,7 +8,7 @@ import net.mizukilab.pit.parm.listener.IPlayerDamaged;
 import net.mizukilab.pit.util.PlayerUtil;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import com.google.common.util.concurrent.AtomicDouble;
-import nya.Skip;
+
 import org.bukkit.Effect;
 import org.bukkit.Sound;
 import org.bukkit.entity.Arrow;
@@ -20,7 +20,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 /**
  * @Author: Misoryan
  * @Created_In: 2021/1/18 19:30
- */@Skip
+ */
 
 @WeaponOnly
 public class BulletTimeEnchant extends AbstractEnchantment implements IPlayerDamaged {

@@ -1,7 +1,7 @@
 package net.mizukilab.pit.sound.impl
 
 import net.mizukilab.pit.util.sound.AbstractPitSound
-import nya.Skip
+
 import org.bukkit.Sound
 import org.bukkit.entity.Player
 
@@ -9,7 +9,7 @@ import org.bukkit.entity.Player
  * 天籁和声音效 - 优美的天堂旋律
  */
 
-@Skip
+
 object CelestialHarmonySound : AbstractPitSound() {
     override fun getMusicInternalName(): String {
         return "celestial_harmony"

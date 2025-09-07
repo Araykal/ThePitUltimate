@@ -8,7 +8,7 @@ import net.mizukilab.pit.util.PlayerUtil;
 import net.mizukilab.pit.util.chat.CC;
 import net.mizukilab.pit.util.item.ItemBuilder;
 import net.mizukilab.pit.util.item.ItemUtil;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -27,7 +27,7 @@ import java.util.List;
  * @Author Misoryan
  * @Date 2022/11/22 19:47
  */
-@Skip
+
 @AutoRegister
 public class PungentKillStreak extends AbstractPerk implements Listener {
 

@@ -5,7 +5,7 @@ import cn.charlotte.pit.perk.AbstractPerk;
 import cn.charlotte.pit.perk.PerkType;
 import net.mizukilab.pit.parm.AutoRegister;
 import net.mizukilab.pit.util.PlayerUtil;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -22,7 +22,7 @@ import java.util.List;
  * @Creator Misoryan
  * @Date 2021/4/26 18:39
  */
-@Skip
+
 @AutoRegister
 public class TacticalRetreatKillStreak extends AbstractPerk implements Listener {
 

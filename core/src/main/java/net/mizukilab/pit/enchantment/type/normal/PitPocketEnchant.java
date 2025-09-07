@@ -9,7 +9,7 @@ import net.mizukilab.pit.parm.listener.IAttackEntity;
 import net.mizukilab.pit.util.chat.CC;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import com.google.common.util.concurrent.AtomicDouble;
-import nya.Skip;
+
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -28,7 +28,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  */
 
 @WeaponOnly
-@Skip
+
 public class PitPocketEnchant extends AbstractEnchantment implements IAttackEntity, Listener {
 
     private final Map<UUID, Cooldown> COOLDOWN = new HashMap<>();

@@ -8,7 +8,7 @@ import net.mizukilab.pit.item.type.mythic.MythicSwordItem
 import net.mizukilab.pit.parm.listener.IPlayerDamaged
 import net.mizukilab.pit.util.cooldown.Cooldown
 import net.mizukilab.pit.util.item.ItemUtil
-import nya.Skip
+
 import org.bukkit.entity.Entity
 import org.bukkit.entity.Player
 import java.util.concurrent.atomic.AtomicBoolean
@@ -18,7 +18,7 @@ import java.util.concurrent.atomic.AtomicBoolean
  * @Creator Misoryan
  * @Date 2021/5/8 14:06
  */
-@Skip
+
 @ArmorOnly
 class NewDealEnchant : AbstractEnchantment(), IPlayerDamaged {
     override fun getEnchantName(): String {

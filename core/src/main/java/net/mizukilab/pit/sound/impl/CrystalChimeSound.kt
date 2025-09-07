@@ -1,14 +1,14 @@
 package net.mizukilab.pit.sound.impl
 
 import net.mizukilab.pit.util.sound.AbstractPitSound
-import nya.Skip
+
 import org.bukkit.Sound
 import org.bukkit.entity.Player
 
 /**
  * 水晶钟声音效 - 清脆悦耳的水晶共鸣
  */
-@Skip
+
 object CrystalChimeSound : AbstractPitSound() {
     override fun getMusicInternalName(): String {
         return "crystal_chime"

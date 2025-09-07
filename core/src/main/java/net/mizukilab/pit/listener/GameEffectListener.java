@@ -36,7 +36,7 @@ import net.mizukilab.pit.util.RangedStreamLineList;
 import net.mizukilab.pit.util.Utils;
 import net.mizukilab.pit.util.chat.CC;
 import net.mizukilab.pit.util.item.ItemUtil;
-import nya.Skip;
+
 import org.bukkit.Material;
 import org.bukkit.craftbukkit.v1_8_R3.entity.CraftLivingEntity;
 import org.bukkit.craftbukkit.v1_8_R3.entity.CraftPlayer;
@@ -63,7 +63,7 @@ import java.util.function.BiConsumer;
  * @Author: EmptyIrony
  * @Date: 2021/1/2 12:40
  */
-@Skip
+
 public class GameEffectListener implements Listener {
 
     private final DecimalFormat numFormatTwo = new DecimalFormat("0.00");

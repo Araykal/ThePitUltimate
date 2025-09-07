@@ -8,7 +8,7 @@ import net.mizukilab.pit.enchantment.param.item.WeaponOnly;
 import net.mizukilab.pit.enchantment.rarity.EnchantmentRarity;
 import net.mizukilab.pit.parm.listener.IPlayerKilledEntity;
 import net.mizukilab.pit.util.cooldown.Cooldown;
-import nya.Skip;
+
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -17,7 +17,7 @@ import org.bukkit.inventory.ItemStack;
  * @Author: Misoryan
  * @Created_In: 2021/3/24 19:23
  */
-@Skip
+
 @WeaponOnly
 @ArmorOnly
 public class SierraEnchant extends AbstractEnchantment implements IPlayerKilledEntity {

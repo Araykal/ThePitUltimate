@@ -7,7 +7,7 @@ import cn.charlotte.pit.data.operator.IProfilerOperator;
 import com.google.common.annotations.Beta;
 import io.irina.backports.utils.SWMRHashTable;
 import net.mizukilab.pit.util.Utils;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
@@ -19,7 +19,7 @@ import java.util.Optional;
 import java.util.UUID;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.function.Consumer;
-@Skip
+
 public class ProfileOperator implements IProfilerOperator {
 
     ThePit instance;

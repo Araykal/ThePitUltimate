@@ -9,7 +9,7 @@ import net.mizukilab.pit.util.PlayerUtil;
 import net.mizukilab.pit.util.Utils;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import net.minecraft.server.v1_8_R3.EntityPlayer;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.craftbukkit.v1_8_R3.entity.CraftPlayer;
@@ -28,7 +28,7 @@ import java.text.DecimalFormat;
  * @Author: Misoryan
  * @Created_In: 2021/1/30 15:33
  */
-@Skip
+
 @BowOnly
 @AutoRegister
 public class TrueDamageArrowEnchant extends AbstractEnchantment implements Listener {

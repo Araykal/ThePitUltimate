@@ -8,7 +8,7 @@ import net.mizukilab.pit.parm.listener.IAttackEntity;
 import net.mizukilab.pit.parm.listener.ITickTask;
 import net.mizukilab.pit.util.beam.beam.Beam;
 import net.mizukilab.pit.util.cooldown.Cooldown;
-import nya.Skip;
+
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
@@ -21,7 +21,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * @Author: EmptyIrony
  * @Date: 2021/4/17 22:35
  */
-@Skip
+
 @ArmorOnly
 public class LaserEnchant extends AbstractEnchantment implements IAttackEntity, ITickTask {
 

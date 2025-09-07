@@ -11,7 +11,7 @@ import net.mizukilab.pit.util.PublicUtil;
 import net.mizukilab.pit.util.Utils;
 import it.unimi.dsi.fastutil.objects.Object2IntMap;
 import lombok.SneakyThrows;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -29,7 +29,7 @@ import static net.mizukilab.pit.util.Utils.shouldTick;
  * @Author: EmptyIrony
  * @Date: 2021/1/5 0:30
  */
-@Skip
+
 public class TickHandler extends BukkitRunnable {
     //@Getter
     //private final static ObjectArrayList<TradeRequest> tradeRequests = new ObjectArrayList<>();

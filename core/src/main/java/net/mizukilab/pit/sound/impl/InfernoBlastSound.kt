@@ -1,14 +1,14 @@
 package net.mizukilab.pit.sound.impl
 
 import net.mizukilab.pit.util.sound.AbstractPitSound
-import nya.Skip
+
 import org.bukkit.Sound
 import org.bukkit.entity.Player
 
 /**
  * 地狱爆炸音效 - 炽热的火焰爆发
  */
-@Skip
+
 object InfernoBlastSound : AbstractPitSound() {
     override fun getMusicInternalName(): String {
         return "inferno_blast"

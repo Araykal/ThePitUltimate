@@ -1,13 +1,13 @@
 package net.mizukilab.pit.util;
 
 import lombok.SneakyThrows;
-import nya.Skip;
+
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
-@Skip
+
 public class NameUtils {
     /* 598 百家姓 */
     private static final String[] surname =

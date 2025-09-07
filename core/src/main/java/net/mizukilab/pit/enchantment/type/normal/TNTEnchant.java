@@ -10,7 +10,7 @@ import net.mizukilab.pit.parm.listener.IPlayerRespawn;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import net.mizukilab.pit.util.inventory.InventoryUtil;
 import net.mizukilab.pit.util.item.ItemBuilder;
-import nya.Skip;
+
 import org.bukkit.Material;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
@@ -21,7 +21,7 @@ import java.util.Arrays;
  * @Author: Misoryan
  * @Created_In: 2021/2/28 10:30
  */
-@Skip
+
 @ArmorOnly
 public class TNTEnchant extends AbstractEnchantment implements IPlayerKilledEntity, IPlayerRespawn {
 

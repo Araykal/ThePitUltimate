@@ -7,7 +7,7 @@ import net.mizukilab.pit.enchantment.rarity.EnchantmentRarity;
 import net.mizukilab.pit.parm.listener.ITickTask;
 import net.mizukilab.pit.util.PlayerUtil;
 import net.mizukilab.pit.util.cooldown.Cooldown;
-import nya.Skip;
+
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -23,7 +23,7 @@ import java.util.concurrent.TimeUnit;
  */
 
 @ArmorOnly
-@Skip
+
 public class BooBooEnchant extends AbstractEnchantment implements ITickTask, IActionDisplayEnchant, Listener {
 
     public static final HashMap<UUID, Cooldown> cooldown = new HashMap<>();

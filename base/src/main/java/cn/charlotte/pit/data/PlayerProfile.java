@@ -33,7 +33,7 @@ import net.mizukilab.pit.util.inventory.InventoryUtil;
 import net.mizukilab.pit.util.level.LevelUtil;
 import net.mizukilab.pit.util.random.RandomUtil;
 import net.mizukilab.pit.util.rank.RankUtil;
-import nya.Skip;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Sound;
 import org.bukkit.Warning;
@@ -50,7 +50,7 @@ import java.util.concurrent.TimeUnit;
  * @Author: EmptyIrony
  * @Date: 2020/12/29 23:04
  */
-@Skip
+
 @JsonIgnoreProperties(ignoreUnknown = true, value = {
         "inArena",
         "streakKills",

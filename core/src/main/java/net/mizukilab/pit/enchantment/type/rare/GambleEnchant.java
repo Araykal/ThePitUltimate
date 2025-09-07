@@ -9,7 +9,7 @@ import net.mizukilab.pit.parm.listener.IAttackEntity;
 import net.mizukilab.pit.util.PlayerUtil;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import net.mizukilab.pit.util.random.RandomUtil;
-import nya.Skip;
+
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
@@ -20,7 +20,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * @Created_In: 2021/2/2 18:35
  */
 @WeaponOnly
-@Skip
+
 public class GambleEnchant extends AbstractEnchantment implements IAttackEntity {
 
     @Override

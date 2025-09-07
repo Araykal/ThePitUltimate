@@ -1,7 +1,7 @@
 package net.mizukilab.pit.util;
 
 import net.minecraft.server.v1_8_R3.*;
-import nya.Skip;
+
 import org.bukkit.Location;
 import org.bukkit.craftbukkit.v1_8_R3.entity.CraftPlayer;
 import org.bukkit.entity.Player;
@@ -11,7 +11,7 @@ import org.bukkit.util.Vector;
  * 粒子效果工具类
  * 用于神话之井附魔动画
  */
-@Skip
+
 public class ParticleUtil {
 
     /**

@@ -13,7 +13,7 @@ import net.mizukilab.pit.util.Utils;
 import net.mizukilab.pit.util.chat.RomanUtil;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import net.mizukilab.pit.util.time.TimeUtil;
-import nya.Skip;
+
 import org.bukkit.Material;
 import org.bukkit.craftbukkit.v1_8_R3.entity.CraftPlayer;
 import org.bukkit.entity.Player;
@@ -35,7 +35,7 @@ import java.util.concurrent.TimeUnit;
 
 @AutoRegister
 @BowOnly
-@Skip
+
 public class MegaLongBowEnchant extends AbstractEnchantment implements Listener, IActionDisplayEnchant {
 
     private static final HashMap<UUID, Cooldown> cooldown = new HashMap<>();

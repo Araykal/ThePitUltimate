@@ -9,14 +9,14 @@ import net.mizukilab.pit.parm.AutoRegister
 import net.mizukilab.pit.util.PlayerUtil
 import net.mizukilab.pit.util.cooldown.Cooldown
 import net.mizukilab.pit.util.item.ItemUtil
-import nya.Skip
+
 
 import org.bukkit.entity.Player
 import org.bukkit.event.EventHandler
 import org.bukkit.event.EventPriority
 import org.bukkit.event.entity.EntityDamageByEntityEvent
 
-@Skip
+
 @AutoRegister
 @ArmorOnly
 class AceOfSpades : AbstractEnchantment() {

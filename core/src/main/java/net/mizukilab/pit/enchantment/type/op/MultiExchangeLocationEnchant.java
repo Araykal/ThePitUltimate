@@ -9,7 +9,7 @@ import net.mizukilab.pit.parm.listener.IPlayerShootEntity;
 import net.mizukilab.pit.util.PlayerUtil;
 import net.mizukilab.pit.util.chat.CC;
 import net.mizukilab.pit.util.cooldown.Cooldown;
-import nya.Skip;
+
 import org.bukkit.Location;
 import org.bukkit.Sound;
 import org.bukkit.entity.Entity;
@@ -26,7 +26,7 @@ import java.util.stream.Collectors;
  * @Author: EmptyIrony
  * @Date: 2021/3/6 22:52
  */
-@Skip
+
 @BowOnly
 public class MultiExchangeLocationEnchant extends AbstractEnchantment implements IPlayerShootEntity {
 

@@ -3,7 +3,7 @@ package net.mizukilab.pit.runnable;
 import cn.charlotte.pit.ThePit;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import net.mizukilab.pit.util.random.RandomUtil;
-import nya.Skip;
+
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.entity.Item;
@@ -17,7 +17,7 @@ import java.util.List;
  * @Author: EmptyIrony
  * @Date: 2021/2/2 13:21
  */
-@Skip
+
 public class GoldDropRunnable extends BukkitRunnable {
 
     private final ObjectArrayList<Item> itemGarbageList = new ObjectArrayList<>();

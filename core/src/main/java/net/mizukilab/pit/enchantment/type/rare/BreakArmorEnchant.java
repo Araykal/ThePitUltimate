@@ -6,7 +6,7 @@ import net.mizukilab.pit.enchantment.param.item.BowOnly;
 import net.mizukilab.pit.enchantment.rarity.EnchantmentRarity;
 import net.mizukilab.pit.parm.listener.IPlayerShootEntity;
 import net.mizukilab.pit.util.cooldown.Cooldown;
-import nya.Skip;
+
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
@@ -16,7 +16,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * @Author: Starry_Killer
  * @Created_In: 2021/4/9 20:16
  */
-@Skip
+
 @BowOnly
 public class BreakArmorEnchant extends AbstractEnchantment implements IPlayerShootEntity {
 

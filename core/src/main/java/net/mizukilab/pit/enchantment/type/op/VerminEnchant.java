@@ -9,7 +9,7 @@ import net.mizukilab.pit.util.BatUtil;
 import net.mizukilab.pit.util.PlayerUtil;
 import net.mizukilab.pit.util.cooldown.Cooldown;
 import net.mizukilab.pit.util.time.TimeUtil;
-import nya.Skip;
+
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -25,7 +25,7 @@ import java.util.concurrent.TimeUnit;
  * @author Araykal
  * @since 2025/4/11
  */
-@Skip
+
 @WeaponOnly
 public class VerminEnchant extends AbstractEnchantment implements Listener,ITickTask, IActionDisplayEnchant {
 

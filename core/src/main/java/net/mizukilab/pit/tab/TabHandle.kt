@@ -10,7 +10,7 @@ import net.mizukilab.pit.config.TabConfiguration.delay
 import net.mizukilab.pit.config.TabConfiguration.head
 import net.mizukilab.pit.config.TabConfiguration.part
 import net.mizukilab.pit.config.TabConfiguration.tick
-import nya.Skip
+
 import org.bukkit.Bukkit
 import org.bukkit.entity.Player
 import org.bukkit.scheduler.BukkitRunnable
@@ -19,7 +19,7 @@ import org.bukkit.scheduler.BukkitRunnable
  * @author Araykal
  * @since 2025/5/12
  */
-@Skip
+
 class TabHandle {
     var counter = 0
 

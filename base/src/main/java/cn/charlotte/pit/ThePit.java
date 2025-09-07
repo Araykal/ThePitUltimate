@@ -94,6 +94,7 @@ import java.util.function.Function;
  */
 public class ThePit extends JavaPlugin implements PluginMessageListener {
     public static String BASE_VERSION;
+    @Getter
     public static PitInternalHook api;
     private static final Logger log = org.slf4j.LoggerFactory.getLogger(ThePit.class);
     private static boolean DEBUG_SERVER = false;
